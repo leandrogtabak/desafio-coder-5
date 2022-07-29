@@ -1,0 +1,21 @@
+<div class='container bg-light p-4 my-2 mx-auto'>
+  <h1 class='text-primary mb-5'>Ingrese producto</h1>
+  <form action='/productos' method='post'>
+    <div class='mb-3'>
+      <label for='title' class='form-label fw-semibold fst-italic'>Nombre:</label>
+      <input type='text' class='form-control' name='title' />
+    </div>
+    <div class='mb-3'>
+      <label for='price' class='form-label fw-semibold fst-italic'>Precio:</label>
+      <input type='text' class='form-control' name='price' />
+    </div>
+    <div class='mb-3'>
+      <label for='thumbnail' class='form-label fw-semibold fst-italic'>Foto URL:</label>
+      <input type='text' class='form-control' name='thumbnail' />
+    </div>
+
+    <button type='submit' class='btn btn-success mt-4'>Enviar</button>
+
+  </form>
+  <a class='btn btn-primary' href='/productos' role='button'>Ver Productos</a>
+</div>
