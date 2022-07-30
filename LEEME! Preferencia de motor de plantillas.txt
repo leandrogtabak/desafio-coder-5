@@ -1,8 +1,4 @@
-Hola Agus, como va?
-
 Por brevedad, esta muy bueno pugs por que escribis poco código, sin embargo, no puedo acostumbrarme al tema del tabulado, 
 toco algo y al toque se rompe todo, no tengo control.
 Finalmente elijo EJS. Es el mas completo, el que me deja escribir código "casi" js y muy parecido a handlebars en que escribis el resto
 en html común.
-
-Abrazo!
