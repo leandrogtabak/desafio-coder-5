@@ -4,6 +4,9 @@
 
 <div class='container bg-light p-4 my-2 mx-auto'>
   <h1 class='text-primary mb-5'>Vista de productos</h1>
+
+
+{{#if productos.length}}
   <table class='table'>
     <thead>
       <tr class='table-dark'>
@@ -28,6 +31,20 @@
     </tbody>
 
   </table>
+{{else}}
 
+<div class='p-3 bg-white mb-4'>
+    <h2 class='text-danger'>No se encontraron productos</h2>
+</div>
+      
+
+{{/if}}
   <a class='btn btn-primary' href='/' role='button'>Volver al formulario</a>
+</div>
+
+
+
+
+
+
 </div>
